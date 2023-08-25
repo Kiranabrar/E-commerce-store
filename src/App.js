@@ -18,7 +18,7 @@ function App() {
       <Header/>
         <Routes>
          
-          <Route path='/' element={<Home/>}></Route>
+          <Route exact path='/' element={<Home/>}></Route>
           <Route index element ={<Home/>}/>
           <Route path='/cart' element={<Cart/>}></Route>
         </Routes>
