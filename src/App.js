@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter basename='/E-commerce-store'>
           <Header/>
         <Routes>
-          <Route index element={<Home/>}/>
+
           <Route exact path='/' element={<Home/>}></Route>
           <Route index element ={<Home/>}/>
           <Route path='/cart' element={<Cart/>}></Route>
