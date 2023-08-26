@@ -14,8 +14,9 @@ function App() {
 
     <div className="App">
       <Provider store={store}>
+          <Header/>
       <BrowserRouter basename='/E-commerce-store'>
-      <Header/>
+
         <Routes>
          
           <Route exact path='/' element={<Home/>}></Route>
